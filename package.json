@@ -1,0 +1,14 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "5.10.1",
+    "webpack-cli": "4.2.0"
+  },
+  "scripts":{
+    "chrome":"node --inspect-brk ./node_modules/.bin/webpack-cli",
+    "dev":"./node_modules/.bin/webpack-cli"
+  }
+}
